@@ -1,0 +1,177 @@
+.heading {
+  font-size: 1.6rem;
+}
+
+.golden-gb-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1476687754667-c144fc3f924d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2274&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.golden-gp-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://cdn.vox-cdn.com/thumbor/873zhq2eb7YaggmfCpWtuq4S558=/0x0:3889x2593/1200x900/filters:focal(2330x1249:2952x1871)/cdn.vox-cdn.com/uploads/chorus_image/image/55597975/shutterstock_718398982.1499366887.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alcatraz-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1572525557337-8d520106d8fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pier39-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://www.californiabeaches.com/wp-content/uploads/2016/06/pier-39-fishermans-wharf-san-francisco-1-1000x518.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.union-square-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ikdzfNz7klgo/v0/-1x-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.activity {
+  color: #fff;
+  border-radius: 10px;
+  border: 10px solid #ed3300;
+  box-shadow: 10px 10px 10px #aaa;
+  line-height: 2;
+  margin: 3% auto;
+  padding: 2%;
+  width: 70%;
+  text-align: justify;
+}
+
+.activity-name {
+  text-align: center;
+  margin: 0;
+}
+
+.activity p {
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.learn-more {
+  color: #ed3300;
+  text-decoration: none;
+}
+
+@media (max-width: 625px) {
+  .activity {
+    border-radius: 5px;
+    border: 5px solid #ed3300;
+    box-shadow: 5px 5px 5px #aaa;
+    margin: 2% auto;
+    padding: 3%;
+    width: 90%;
+    text-align: justify;
+    font-size: 0.9rem;
+  }
+
+  .comp-logo {
+    height: 30px
+  }
+}
+
+@media (min-width: 992px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .activity {
+    color: #000;
+    background-color: #fff;
+    border: 10px solid #ed3300;
+    line-height: 2;
+    margin: 1% auto;
+    width: 50%;
+    text-align: justify;
+    font-size: 1.1rem;
+  }
+
+  .golden-gb-pllax {
+    background-image: url("https://images.unsplash.com/photo-1476687754667-c144fc3f924d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2274&q=80");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .golden-gp-pllax {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/873zhq2eb7YaggmfCpWtuq4S558=/0x0:3889x2593/1200x900/filters:focal(2330x1249:2952x1871)/cdn.vox-cdn.com/uploads/chorus_image/image/55597975/shutterstock_718398982.1499366887.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .alcatraz-pllax {
+    background-image: url("https://images.unsplash.com/photo-1572525557337-8d520106d8fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .pier39-pllax {
+    background-image: url("https://www.californiabeaches.com/wp-content/uploads/2016/06/pier-39-fishermans-wharf-san-francisco-1-1000x518.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .union-square-pllax {
+    background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ikdzfNz7klgo/v0/-1x-1.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section-border {
+    background-color: #e3fcff;
+    padding: 5px;
+  }
+
+  .golden-gb-background {
+    background-image: none;
+  }
+
+  .golden-gp-background {
+    background-image: none;
+  }
+
+  .alcatraz-background {
+    background-image: none;
+  }
+
+  .pier39-background {
+    background-image: none;
+  }
+
+  .union-square-background {
+    background-image: none;
+  }
+
+  .comp-logo {
+    height: 50px
+  }
+}

@@ -1,0 +1,123 @@
+.heading {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+
+.it-scene-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://www.newsdesk.pk/wp-content/uploads/2019/09/getwallpapers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.apple-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://image.businessinsider.com/5cf672a311e205334626ab19?width=1100&format=jpeg&auto=webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fb-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://corporateofficeheadquarters.org/wp-content/uploads/2018/09/Facebook-Corporate-Office-Photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.goog-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://www.worldatlas.com/r/w1200-h701-c1200x701/upload/9c/e1/39/shutterstock-724339942.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.amzn-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://image.cnbcfm.com/api/v1/image/104476761-Amazon_Headquarters.jpg?v=1541568866&w=1400&h=950");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.twtr-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.law.com/contrib/content/uploads/sites/403/2019/10/twitter-headquarters-Article-201910182204.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.employer {
+  color: #fff;
+  border-radius: 10px;
+  border: 10px solid #ed3300;
+  box-shadow: 10px 10px 10px #aaa;
+  line-height: 2;
+  margin: 3% auto;
+  padding: 2%;
+  width: 70%;
+  text-align: justify;
+}
+
+.comp-logo{
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+.comp-name {
+  text-align: center;
+  margin: 0;
+}
+
+.comp-url {
+  color: #fff;
+  text-decoration: none;
+}
+
+.comp-url:hover {
+  color: #46b3e6;
+}
+
+@media (max-width: 625px){
+  
+.heading {
+  font-size: 1.2rem;
+}
+  
+  .employer {
+  border-radius: 5px;
+  border: 5px solid #ed3300;
+  box-shadow: 5px 5px 5px #aaa;
+  margin: 2% auto;
+  padding: 3%;
+  width: 90%;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+  .comp-logo {
+    height: 30px
+  }
+
+}
+ 
+ 
+  @media (min-width: 992px) {
+    
+.heading {
+  font-size: 2rem;
+}
+    
+  .employer {
+  border: 10px solid #ed3300;
+  line-height: 2;
+  margin: 2% auto;
+  width: 50%;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+    
+    .comp-logo {
+    height: 50px
+  }
+    
+  }

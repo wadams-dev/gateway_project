@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTACT</title>
+  <link rel="icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul class="nav-bar">
+        <li class="list-items"><a class="link" href="./index.html">home</a></li>
+        <li class="list-items"><a class="link" href="./todo.html">to do</a></li>
+        <li class="list-items"><a class="link" href="./it.html">it</a></li>
+        <li class="list-items"><a class="link active-page" href="./contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="heading">We would love to hear from you!</h1>
+
+    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+
+      <label for="first-name">First name:</label>
+      <input type="text" id="first-name" name="first-name" placeholder=" First Name" required>
+
+      <label for="last-name">Last name:</label>
+      <input type="text" id="last-name" name="last-name" placeholder=" Last Name" required>
+
+      <label for="phone">Phone number:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder=" 123-456-7890" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" size="30" placeholder=" Email" required>
+
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" rows="5" cols="33" placeholder=" Leave your comment here." required></textarea>
+
+      <input class="btn" type="submit" value="Submit">
+
+    </form>
+
+  </main>
+  <footer class="footer">
+    <a class="footer-links" href="https://www.facebook.com/" target="_blank" rel="noreferrer" title="Go to Facebook.com">Facebook</a>
+    <a class="footer-links" href="https://www.instagram.com/" target="_blank" rel="noreferrer" title="Go to Instagram.com">Instagram</a>
+    <a class="footer-links" href="https://twitter.com/" target="_blank" rel="noreferrer" title="Go to Twitter.com">Twitter</a>
+    <img class="logo" src="https://image.flaticon.com/icons/svg/1861/1861349.svg" alt="company logo">
+    <p class="copyright">&copy;2020 William Adams.</p>
+  </footer>
+
+</body>
+
+</html>
